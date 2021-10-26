@@ -1,0 +1,143 @@
+
+CREATE DATABASE MAS
+GO
+USE MAS
+
+CREATE TABLE Major(
+	Id			VARCHAR(30)		PRIMARY KEY,
+	Name		NVARCHAR(50)	NOT NULL,
+	Description NVARCHAR(100)	NULL
+)
+GO
+
+CREATE TABLE Student(
+	Id			INT	IDENTITY(1,1)	PRIMARY KEY,
+	Email		VARCHAR(400)	UNIQUE NOT NULL,
+	Mssv		VARCHAR(30)		NULL,
+	MajorId		VARCHAR(30)		NULL,
+	Name		NVARCHAR(50)	NULL,
+	Phone		VARCHAR(30)		NULL,
+	Status		INT				NOT NULL,
+	Gender		INT				NULL,
+	Birthday	DATETIME		NULL,
+	Address		VARCHAR(100)	NULL,
+	AvatarURL	VARCHAR(MAX)	NULL,
+		
+	FOREIGN KEY (MajorId) REFERENCES Major(Id)
+)
+GO
+
+
+CREATE TABLE Lecturer(
+	Id			INT	IDENTITY(1,1)	PRIMARY KEY,
+	Email		VARCHAR(400)	UNIQUE NOT NULL,
+	Name		NVARCHAR(50)	NULL,
+	Phone		VARCHAR(30)		NULL,
+	MeetingURL	VARCHAR(MAX)	NULL,
+	Status		INT				NOT NULL,
+	Gender		INT				NULL,
+	Birthday	DATETIME		NULL,
+	Address		VARCHAR(100)	NULL,
+	AvatarURL	VARCHAR(MAX)	NULL
+)
+GO
+
+CREATE TABLE Topic(
+	Id			INT IDENTITY(1,1) PRIMARY KEY,
+	Name		NVARCHAR(50)	NOT NULL,
+	CourseId	VARCHAR(30)		NULL,
+	MajorId		VARCHAR(30)		NULL,
+	Description NVARCHAR(200)	NULL,
+	Status		INT				NOT NULL,
+
+	UNIQUE (CourseId, MajorId),
+	FOREIGN KEY (MajorId) REFERENCES Major(Id)
+)
+GO
+
+CREATE TABLE LecturerTopicDetail(
+	LecturerId	INT,
+	TopicId		INT,
+
+	PRIMARY KEY (LecturerId, TopicId),
+	FOREIGN KEY (LecturerId) REFERENCES Lecturer(Id),
+	FOREIGN KEY (TopicId)    REFERENCES Topic(Id)
+)
+GO
+
+CREATE TABLE Slot(
+	Id			INT IDENTITY(1,1)	PRIMARY KEY,
+	LecturerId	INT					NOT NULL,
+	TimeStart	DATETIME			NOT NULL,
+	TimeEnd		DATETIME			NOT NULL,
+	Status		INT					NOT NULL DEFAULT 1,
+
+	FOREIGN KEY (LecturerId) REFERENCES Lecturer(Id)
+)
+GO
+
+CREATE TABLE SlotTopicDetail(
+	SlotId	INT,
+	TopicId	INT,
+	
+	PRIMARY KEY (SlotId, TopicId),
+	FOREIGN KEY (SlotId)  REFERENCES Slot(Id),
+	FOREIGN KEY (TopicId) REFERENCES Topic(id)
+)
+GO
+
+CREATE TABLE BookingRequest(
+	Id			INT IDENTITY(1,1)	PRIMARY KEY,
+	SlotId		INT					NOT NULL,
+	StudentId	INT					NOT NULL,
+	TopicId		INT					NOT NULL,
+	Title		NVARCHAR(MAX)		NOT NULL,
+	CreateTime	DATETIME			NOT NULL,
+	Status		INT					NOT NULL,
+	Rating		INT					NULL,
+
+	FOREIGN KEY (SlotId)    REFERENCES Slot(Id),
+	FOREIGN KEY	(StudentId) REFERENCES Student(Id),
+	FOREIGN KEY	(TopicId)   REFERENCES Topic(Id)
+)
+GO
+
+CREATE TABLE Question(
+	Id			INT IDENTITY(1,1)	PRIMARY KEY,
+	BookingId	INT					NOT NULL,
+	Content		NVARCHAR(MAX)		NOT NULL,
+
+	FOREIGN KEY (BookingId) REFERENCES BookingRequest(Id)
+)
+GO
+
+CREATE TABLE FavoriteLecturer(
+	StudentId	INT,
+	LecturerId	INT,
+
+	PRIMARY KEY (StudentId, LecturerId),
+	FOREIGN KEY (StudentId)  REFERENCES Student(Id),
+	FOREIGN KEY (LecturerId) REFERENCES Lecturer(Id)
+)
+GO
+
+CREATE TABLE Admin(
+	Id			INT IDENTITY(1,1)	PRIMARY KEY,	
+	Username	VARCHAR(30)			UNIQUE NOT NULL,
+	Password	VARCHAR(MAX)		NOT NULL,
+	Name		NVARCHAR(100)		NULL,
+	Email		VARCHAR(400)		UNIQUE NOT NULL,
+	Phone		VARCHAR(30)			NULL,
+	Gender		INT					NULL,
+	Birthday	DATETIME			NULL,
+	AvatarURL	VARCHAR(MAX)		NULL
+)
+GO
+
+CREATE TABLE Notification (
+	Id			INT IDENTITY(1,1)	PRIMARY KEY,
+	Email		VARCHAR(400)		NOT NULL,
+	Content		NVARCHAR(MAX)		NOT NULL,
+	SendTime	DATETIME			NOT NULL,
+	IsRead		BIT					NOT NULL DEFAULT 0
+)
