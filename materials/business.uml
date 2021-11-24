@@ -1,208 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>D:/GitHub/com-lasa/com-lasa-service/src/main/java/com/lasa/business</OriginalElement>
+  <OriginalElement>D:/GitHub/com-lasa/com-lasa-service/src/main/java/com/lasa</OriginalElement>
   <nodes>
-    <node x="1245.0" y="272.0">com.lasa.business.controllers.implv1.BookingRequestController</node>
-    <node x="1562.0" y="3396.0">com.lasa.business.controllers.AdminOperations</node>
-    <node x="585.0" y="3396.0">com.lasa.business.services.FavoriteLecturerService</node>
-    <node x="3205.0" y="0.0">com.lasa.business.services.BookingRequestService</node>
-    <node x="1659.0" y="1478.0">com.lasa.business.services.SlotTopicDetailService</node>
-    <node x="2231.0" y="3889.0">com.lasa.business.services.implv1.AdminServiceImpl</node>
-    <node x="2790.0" y="1478.0">com.lasa.business.controllers.MajorOperations</node>
-    <node x="1065.0" y="1684.0">com.lasa.business.services.implv1.SlotTopicDetailServiceImpl</node>
-    <node x="2009.0" y="4102.0">com.lasa.business.config.utils.ValidationHelper</node>
-    <node x="1687.0" y="2514.0">com.lasa.business.controllers.SlotTopicDetailOperations</node>
-    <node x="765.0" y="0.0">com.lasa.business.services.SlotService</node>
-    <node x="2258.0" y="1684.0">com.lasa.business.controllers.implv1.MajorController</node>
-    <node x="496.0" y="2514.0">com.lasa.business.services.TopicService</node>
-    <node x="3419.0" y="2007.0">com.lasa.business.services.LecturerTopicDetailService</node>
-    <node x="3209.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsAdmin</node>
-    <node x="457.0" y="4102.0">com.lasa.business.controllers.ApplicationOperations</node>
-    <node x="2002.0" y="3161.0">com.lasa.business.controllers.implv1.StudentController</node>
-    <node x="1870.0" y="2147.0">com.lasa.business.services.implv1.EmailSenderServiceImpl</node>
-    <node x="1262.0" y="3911.0">com.lasa.business.controllers.implv1.LecturerTopicDetailController</node>
-    <node x="2274.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsAdminOrStudent</node>
-    <node x="997.0" y="2698.0">com.lasa.business.controllers.implv1.SlotTopicDetailController</node>
-    <node x="1175.0" y="3558.0">com.lasa.business.controllers.implv1.AdminController</node>
-    <node x="1236.0" y="4102.0">com.lasa.business.config.utils.TopicStatus</node>
-    <node x="0.0" y="3558.0">com.lasa.business.services.implv1.FavoriteLecturerServiceImpl</node>
-    <node x="2495.0" y="2977.0">com.lasa.business.controllers.StudentOperations</node>
-    <node x="0.0" y="2720.0">com.lasa.business.services.implv1.TopicServiceImpl</node>
-    <node x="1506.0" y="2977.0">com.lasa.business.controllers.LecturerOperations</node>
-    <node x="0.0" y="1132.0">com.lasa.business.services.implv1.LecturerServiceImpl</node>
-    <node x="617.0" y="904.0">com.lasa.business.services.LecturerService</node>
-    <node x="2516.0" y="228.0">com.lasa.business.services.implv1.BookingRequestServiceImpl</node>
-    <node x="2692.0" y="3396.0">com.lasa.business.controllers.AuthenticationOperations</node>
-    <node x="2878.0" y="2213.0">com.lasa.business.services.implv1.LecturerTopicDetailServiceImpl</node>
-    <node x="530.0" y="1478.0">com.lasa.business.services.StudentService</node>
-    <node x="3114.0" y="3771.0">com.lasa.business.config.utils.BookingRequestStatus</node>
-    <node x="1424.0" y="2007.0">com.lasa.business.services.MajorService</node>
-    <node x="0.0" y="2235.0">com.lasa.business.services.implv1.QuestionServiceImpl</node>
-    <node x="2490.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsAdminOrLecturer</node>
-    <node x="1472.0" y="4102.0">com.lasa.business.config.WebConfig</node>
-    <node x="1976.0" y="904.0">com.lasa.business.services.AuthenticationService</node>
-    <node x="0.0" y="3161.0">com.lasa.business.controllers.implv1.TopicController</node>
-    <node x="1093.0" y="1044.0">com.lasa.business.services.implv1.AuthenticationServiceImpl</node>
-    <node x="2268.0" y="2698.0">com.lasa.business.controllers.implv1.QuestionController</node>
-    <node x="0.0" y="3911.0">com.lasa.business.controllers.implv1.FavoriteLecturerController</node>
-    <node x="2895.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsStudent</node>
-    <node x="983.0" y="2235.0">com.lasa.business.services.implv1.MajorServiceImpl</node>
-    <node x="1954.0" y="3536.0">com.lasa.business.controllers.implv1.AuthenticationController</node>
-    <node x="740.0" y="4102.0">com.lasa.business.config.utils.LecturerStatus</node>
-    <node x="3407.0" y="3771.0">com.lasa.business.config.utils.SlotStatus</node>
-    <node x="3092.0" y="904.0">com.lasa.business.controllers.SlotOperations</node>
-    <node x="1744.0" y="3771.0">com.lasa.business.controllers.LecturerTopicDetailOperations</node>
-    <node x="2706.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsNotAvailable</node>
-    <node x="489.0" y="2007.0">com.lasa.business.services.QuestionService</node>
-    <node x="0.0" y="1706.0">com.lasa.business.services.implv1.StudentServiceImpl</node>
-    <node x="1927.0" y="0.0">com.lasa.business.controllers.BookingRequestOperations</node>
-    <node x="2461.0" y="2007.0">com.lasa.business.services.EmailSenderService</node>
-    <node x="2457.0" y="1132.0">com.lasa.business.controllers.implv1.SlotController</node>
-    <node x="532.0" y="2977.0">com.lasa.business.controllers.TopicOperations</node>
-    <node x="0.0" y="294.0">com.lasa.business.services.implv1.SlotServiceImpl</node>
-    <node x="715.0" y="3771.0">com.lasa.business.controllers.FavoriteLecturerOperations</node>
-    <node x="989.0" y="4102.0">com.lasa.business.config.utils.StudentStatus</node>
-    <node x="2853.0" y="2514.0">com.lasa.business.controllers.QuestionOperations</node>
-    <node x="1007.0" y="3161.0">com.lasa.business.controllers.implv1.LecturerController</node>
-    <node x="2728.0" y="3771.0">com.lasa.business.services.AdminService</node>
-    <node x="3052.0" y="4102.0">com.lasa.business.controllers.utils.authorization.IsLecturer</node>
-    <node x="0.0" y="4198.0">com.lasa.business.controllers.implv1.ApplicationController</node>
+    <node x="1263.0" y="282.0">com.lasa.business.controllers.implv1.BookingRequestController</node>
+    <node x="0.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.DeleteException</node>
+    <node x="1983.5" y="262.0">com.lasa.security.utils.model.ResponseObject.ResponseObjectBuilder</node>
+    <node x="2480.0" y="2014.0">com.lasa.business.controllers.AdminOperations</node>
+    <node x="3577.0" y="2443.0">com.lasa.security.utils.permission.ApplicationUserAuthority</node>
+    <node x="1288.0" y="2443.0">com.lasa.security.utils.model.GoogleAuthenticationRequest</node>
+    <node x="2448.0" y="0.0">com.lasa.business.services.BookingRequestService</node>
+    <node x="1890.0" y="2014.0">com.lasa.business.services.FavoriteLecturerService</node>
+    <node x="2432.0" y="914.0">com.lasa.business.services.SlotTopicDetailService</node>
+    <node x="3062.5" y="914.0">com.lasa.business.controllers.MajorOperations</node>
+    <node x="2295.0" y="2571.0">com.lasa.business.services.implv1.AdminServiceImpl</node>
+    <node x="2279.0" y="2810.0">com.lasa.security.utils.model.AuthenticationRequest</node>
+    <node x="1381.0" y="3319.0">com.lasa.business.config.utils.ValidationHelper</node>
+    <node x="2432.0" y="1130.0">com.lasa.business.services.implv1.SlotTopicDetailServiceImpl</node>
+    <node x="2640.0" y="1497.0">com.lasa.business.controllers.SlotTopicDetailOperations</node>
+    <node x="145.0" y="0.0">com.lasa.business.services.SlotService</node>
+    <node x="3031.0" y="1130.0">com.lasa.business.controllers.implv1.MajorController</node>
+    <node x="2528.0" y="3112.0">com.lasa.Application</node>
+    <node x="2082.0" y="1497.0">com.lasa.business.services.TopicService</node>
+    <node x="1536.0" y="1497.0">com.lasa.business.services.LecturerTopicDetailService</node>
+    <node x="2872.0" y="2014.0">com.lasa.security.config.ApplicationSecurityConfiguration</node>
+    <node x="2581.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsAdmin</node>
+    <node x="316.5" y="2810.0">com.lasa.business.controllers.ApplicationOperations</node>
+    <node x="0.0" y="2443.0">com.lasa.security.utils.exception.ExceptionTranslator</node>
+    <node x="1041.0" y="2208.0">com.lasa.business.controllers.implv1.StudentController</node>
+    <node x="940.0" y="1647.0">com.lasa.business.services.implv1.EmailSenderServiceImpl</node>
+    <node x="1950.0" y="0.0">com.lasa.security.utils.model.ResponseObject</node>
+    <node x="2797.0" y="2593.0">com.lasa.business.controllers.implv1.LecturerTopicDetailController</node>
+    <node x="1646.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsAdminOrStudent</node>
+    <node x="2583.0" y="1691.0">com.lasa.business.controllers.implv1.SlotTopicDetailController</node>
+    <node x="2009.0" y="3112.0">com.lasa.security.appuser.MyUserDetailsService</node>
+    <node x="657.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.EmailSenderException</node>
+    <node x="2480.0" y="2186.0">com.lasa.business.controllers.implv1.AdminController</node>
+    <node x="2043.0" y="2810.0">com.lasa.business.config.utils.TopicStatus</node>
+    <node x="1890.0" y="2186.0">com.lasa.business.services.implv1.FavoriteLecturerServiceImpl</node>
+    <node x="1041.0" y="2014.0">com.lasa.business.controllers.StudentOperations</node>
+    <node x="2082.0" y="1713.0">com.lasa.business.services.implv1.TopicServiceImpl</node>
+    <node x="541.0" y="2014.0">com.lasa.business.controllers.LecturerOperations</node>
+    <node x="3099.0" y="238.0">com.lasa.business.services.implv1.LecturerServiceImpl</node>
+    <node x="3172.0" y="0.0">com.lasa.business.services.LecturerService</node>
+    <node x="1551.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.UserAccountException</node>
+    <node x="2405.0" y="238.0">com.lasa.business.services.implv1.BookingRequestServiceImpl</node>
+    <node x="2971.0" y="3112.0">com.lasa.security.utils.jwt.JwtConfig</node>
+    <node x="421.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.EmailDomainException</node>
+    <node x="1027.0" y="3319.0">com.lasa.security.config.DefaultView</node>
+    <node x="841.0" y="394.0">com.lasa.security.utils.model.InformationResponse.InformationResponseBuilder</node>
+    <node x="545.0" y="2443.0">com.lasa.business.controllers.AuthenticationOperations</node>
+    <node x="1536.0" y="1713.0">com.lasa.business.services.implv1.LecturerTopicDetailServiceImpl</node>
+    <node x="1528.0" y="914.0">com.lasa.business.services.StudentService</node>
+    <node x="3284.0" y="2443.0">com.lasa.business.config.utils.BookingRequestStatus</node>
+    <node x="494.0" y="1497.0">com.lasa.business.services.MajorService</node>
+    <node x="0.0" y="1735.0">com.lasa.business.services.implv1.QuestionServiceImpl</node>
+    <node x="3210.0" y="3112.0">com.lasa.security.filter.ExceptionHandlerFilter</node>
+    <node x="1862.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsAdminOrLecturer</node>
+    <node x="490.0" y="3319.0">com.lasa.business.config.WebConfig</node>
+    <node x="203.5" y="914.0">com.lasa.business.services.AuthenticationService</node>
+    <node x="0.0" y="2208.0">com.lasa.business.controllers.implv1.TopicController</node>
+    <node x="1553.0" y="2810.0">com.lasa.security.filter.JwtRequestFilter</node>
+    <node x="0.0" y="1064.0">com.lasa.business.services.implv1.AuthenticationServiceImpl</node>
+    <node x="3278.0" y="1691.0">com.lasa.business.controllers.implv1.QuestionController</node>
+    <node x="1083.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.ArgumentException</node>
+    <node x="1575.0" y="2593.0">com.lasa.business.controllers.implv1.FavoriteLecturerController</node>
+    <node x="2267.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsStudent</node>
+    <node x="494.0" y="1735.0">com.lasa.business.services.implv1.MajorServiceImpl</node>
+    <node x="689.0" y="2810.0">com.lasa.security.utils.permission.ApplicationUserRole</node>
+    <node x="545.0" y="2593.0">com.lasa.business.controllers.implv1.AuthenticationController</node>
+    <node x="1057.0" y="2810.0">com.lasa.business.config.utils.LecturerStatus</node>
+    <node x="0.0" y="2810.0">com.lasa.business.config.utils.SlotStatus</node>
+    <node x="2797.0" y="2443.0">com.lasa.business.controllers.LecturerTopicDetailOperations</node>
+    <node x="947.5" y="914.0">com.lasa.business.controllers.SlotOperations</node>
+    <node x="2078.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsNotAvailable</node>
+    <node x="0.0" y="1497.0">com.lasa.business.services.QuestionService</node>
+    <node x="1539.0" y="2014.0">com.lasa.security.utils.jwt.JwtUtil</node>
+    <node x="1528.0" y="1152.0">com.lasa.business.services.implv1.StudentServiceImpl</node>
+    <node x="1312.0" y="0.0">com.lasa.business.controllers.BookingRequestOperations</node>
+    <node x="887.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.TokenException</node>
+    <node x="1029.5" y="1497.0">com.lasa.business.services.EmailSenderService</node>
+    <node x="888.0" y="1152.0">com.lasa.business.controllers.implv1.SlotController</node>
+    <node x="199.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.DuplicatedException</node>
+    <node x="1781.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.UpdateException</node>
+    <node x="31.0" y="2014.0">com.lasa.business.controllers.TopicOperations</node>
+    <node x="0.0" y="304.0">com.lasa.business.services.implv1.SlotServiceImpl</node>
+    <node x="1661.5" y="2443.0">com.lasa.business.controllers.FavoriteLecturerOperations</node>
+    <node x="2063.0" y="914.0">com.lasa.security.appuser.MyUserDetails</node>
+    <node x="1299.0" y="3218.0">com.lasa.security.utils.exception.ExceptionUtils.UserAlreadyExistException</node>
+    <node x="905.0" y="3112.0">com.lasa.security.utils.exception.ExceptionUtils</node>
+    <node x="770.0" y="0.0">com.lasa.security.utils.model.InformationResponse</node>
+    <node x="1306.0" y="2810.0">com.lasa.business.config.utils.StudentStatus</node>
+    <node x="3317.5" y="1497.0">com.lasa.business.controllers.QuestionOperations</node>
+    <node x="537.0" y="2208.0">com.lasa.business.controllers.implv1.LecturerController</node>
+    <node x="2353.0" y="2443.0">com.lasa.business.services.AdminService</node>
+    <node x="2424.0" y="3319.0">com.lasa.business.controllers.utils.authorization.IsLecturer</node>
+    <node x="0.0" y="3319.0">com.lasa.security.filter.UUIDHandlerFilter</node>
+    <node x="227.0" y="2916.0">com.lasa.business.controllers.implv1.ApplicationController</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.lasa.business.controllers.implv1.LecturerController" target="com.lasa.business.controllers.LecturerOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1731.5" y="3256.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="0.0" y="72.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.SlotServiceImpl" target="com.lasa.business.services.SlotService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="982.5" y="576.5" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-282.5" />
+      <point x="0.0" y="127.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.BookingRequestServiceImpl" target="com.lasa.business.services.BookingRequestService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3486.5" y="389.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-161.0" />
+      <point x="0.0" y="94.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.FavoriteLecturerServiceImpl" target="com.lasa.business.services.FavoriteLecturerService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="857.5" y="3642.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="61.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.TopicServiceImpl" target="com.lasa.business.services.TopicService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="724.0" y="2826.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-106.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.ArgumentException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="1181.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.BookingRequestController" target="com.lasa.business.controllers.BookingRequestOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="2199.0" y="433.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-161.0" />
+      <point x="0.0" y="116.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.StudentServiceImpl" target="com.lasa.business.services.StudentService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="775.0" y="1834.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-128.0" />
+      <point x="0.0" y="94.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.TopicController" target="com.lasa.business.controllers.TopicOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="747.0" y="3256.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.DuplicatedException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="300.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.StudentController" target="com.lasa.business.controllers.StudentOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="2721.5" y="3256.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="0.0" y="72.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.AdminController" target="com.lasa.business.controllers.AdminOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1735.5" y="3642.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="61.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.EmailSenderServiceImpl" target="com.lasa.business.services.EmailSenderService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="2647.0" y="2286.5" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-139.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.UpdateException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="1872.5" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.model.InformationResponse.InformationResponseBuilder" target="com.lasa.security.utils.model.InformationResponse" relationship="INNER_CLASS">
+      <point x="0.0" y="-227.0" />
+      <point x="0.0" y="172.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.LecturerServiceImpl" target="com.lasa.business.services.LecturerService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="832.5" y="1282.5" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-150.5" />
+      <point x="0.0" y="94.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.AdminServiceImpl" target="com.lasa.business.services.AdminService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="2898.5" y="3973.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="39.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.SlotController" target="com.lasa.business.controllers.SlotOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3330.0" y="1282.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-150.0" />
+      <point x="0.0" y="94.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.SlotTopicDetailServiceImpl" target="com.lasa.business.services.SlotTopicDetailService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1936.0" y="1812.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-128.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.EmailDomainException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="529.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.UserAccountException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="1656.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.UserAlreadyExistException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="1415.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.AuthenticationServiceImpl" target="com.lasa.business.services.AuthenticationService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="2194.0" y="1238.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-194.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.model.ResponseObject.ResponseObjectBuilder" target="com.lasa.security.utils.model.ResponseObject" relationship="INNER_CLASS">
+      <point x="0.0" y="-161.0" />
+      <point x="0.0" y="106.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.QuestionServiceImpl" target="com.lasa.business.services.QuestionService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="713.5" y="2352.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-117.0" />
+      <point x="0.0" y="94.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.LecturerTopicDetailController" target="com.lasa.business.controllers.LecturerTopicDetailOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1965.0" y="3984.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="50.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.AuthenticationController" target="com.lasa.business.controllers.AuthenticationOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3041.0" y="3620.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="50.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.LecturerTopicDetailServiceImpl" target="com.lasa.business.services.LecturerTopicDetailService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3669.5" y="2319.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-106.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.EmailSenderException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="762.0" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
     </edge>
     <edge source="com.lasa.business.services.implv1.MajorServiceImpl" target="com.lasa.business.services.MajorService" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1624.5" y="2352.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-117.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.DeleteException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="89.5" y="3193.0" />
+      <point x="975.0" y="3193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.lasa.security.utils.exception.ExceptionUtils.TokenException" target="com.lasa.security.utils.exception.ExceptionUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="28.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.FavoriteLecturerController" target="com.lasa.business.controllers.FavoriteLecturerOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="966.0" y="3984.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="50.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.QuestionController" target="com.lasa.business.controllers.QuestionOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3086.0" y="2793.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="0.0" y="72.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.MajorController" target="com.lasa.business.controllers.MajorOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="3004.5" y="1812.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-128.0" />
+      <point x="0.0" y="83.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.SlotTopicDetailController" target="com.lasa.business.controllers.SlotTopicDetailOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="1955.0" y="2793.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="0.0" y="72.0" />
     </edge>
     <edge source="com.lasa.business.controllers.implv1.ApplicationController" target="com.lasa.business.controllers.ApplicationOperations" relationship="REALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="576.0" y="4271.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="28.0" />
     </edge>
   </edges>
-  <settings layout="Wide" zoom="1.036801099908341" showDependencies="false" x="2376.7441451501545" y="3054.337839991881" />
+  <settings layout="Hierarchic" zoom="0.7734960767218833" showDependencies="false" x="1565.2043507664564" y="2883.5675157799833" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
