@@ -11,4 +11,4 @@
 
 
 #### lasa-business Class Diagram
-![alt text](https://github.com/SWP302Group2/lasa-database/blob/main/materials/lasa-business-classdiagram.PNG?raw=true)
+![alt text](https://github.com/SWP302Group2/lasa-database/blob/main/materials/lasa-business-classdiagram.png)
