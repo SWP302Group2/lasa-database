@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/GitHub/com-lasa/com-lasa-data/src/main/java/com/lasa/data</OriginalElement>
+  <nodes>
+    <node x="1722.0" y="4590.0">com.lasa.data.model.request.SlotBookingRequestModel</node>
+    <node x="4837.0" y="2206.0">com.lasa.data.model.entity.Question</node>
+    <node x="3983.0" y="428.0">com.lasa.data.model.entity.BookingRequest.BookingRequestBuilder</node>
+    <node x="1367.0" y="516.0">com.lasa.data.model.entity.Student.StudentBuilder</node>
+    <node x="380.0" y="0.0">com.lasa.data.model.entity.Lecturer</node>
+    <node x="1926.0" y="3319.0">com.lasa.data.model.entity.SlotTopicDetail.SlotTopicDetailBuilder</node>
+    <node x="0.0" y="2524.0">com.lasa.data.model.utils.criteria.SlotSearchCriteria.SlotSearchCriteriaBuilder</node>
+    <node x="357.0" y="2206.0">com.lasa.data.model.utils.criteria.SlotSearchCriteria</node>
+    <node x="3639.0" y="1619.0">com.lasa.data.model.entity.Slot.SlotBuilder</node>
+    <node x="3682.0" y="5238.0">com.lasa.data.validator.model.LecturerIdsValidator</node>
+    <node x="3027.0" y="5049.0">com.lasa.data.repo.repository.StudentRepository</node>
+    <node x="4489.0" y="2502.0">com.lasa.data.model.entity.Question.QuestionBuilder</node>
+    <node x="1966.0" y="5238.0">com.lasa.data.validator.model.SlotUpdateValidator</node>
+    <node x="3253.0" y="4793.0">com.lasa.data.model.utils.page.LecturerPage</node>
+    <node x="585.0" y="5385.0">com.lasa.data.validator.ValidMajorId</node>
+    <node x="4128.0" y="4590.0">com.lasa.data.model.utils.projection.MajorWithSimpleTopic.SimpleTopic</node>
+    <node x="1057.0" y="3023.0">com.lasa.data.model.entity.LecturerTopicDetail</node>
+    <node x="4298.0" y="4450.0">com.lasa.data.model.utils.projection.MajorWithSimpleTopic</node>
+    <node x="880.0" y="5385.0">com.lasa.data.validator.ValidBookingRequestUpdate</node>
+    <node x="4609.0" y="3297.0">com.lasa.data.model.entity.key.SlotTopicDetailKey.SlotTopicDetailKeyBuilder</node>
+    <node x="1057.0" y="3576.0">com.lasa.data.validator.ValidQuestionUpdate</node>
+    <node x="2397.0" y="5238.0">com.lasa.data.validator.model.TopicUpdateValidator</node>
+    <node x="0.0" y="1663.0">com.lasa.data.model.entity.Admin.AdminBuilder</node>
+    <node x="3293.0" y="5532.0">com.lasa.data.model.utils.specification.FavoriteLecturerSpecification</node>
+    <node x="2702.0" y="4793.0">com.lasa.data.model.view.QuestionViewModel</node>
+    <node x="2189.0" y="4061.0">com.lasa.data.model.request.LecturerRequestModel</node>
+    <node x="3953.0" y="5532.0">com.lasa.data.validator.group.PostValidator</node>
+    <node x="1637.0" y="3576.0">com.lasa.data.validator.ValidBookingTopicId</node>
+    <node x="3764.0" y="5532.0">com.lasa.data.validator.group.PatchValidator</node>
+    <node x="3798.0" y="4061.0">com.lasa.data.model.utils.criteria.QuestionSearchCriteria</node>
+    <node x="1491.0" y="5238.0">com.lasa.data.validator.model.AcceptOrDenyBookingValidator</node>
+    <node x="3322.0" y="4496.0">com.lasa.data.repo.repository.FavoriteLecturerRepository</node>
+    <node x="0.0" y="5238.0">com.lasa.data.validator.model.BookingRequestValidator</node>
+    <node x="3419.0" y="4225.0">com.lasa.data.model.utils.criteria.QuestionSearchCriteria.QuestionSearchCriteriaBuilder</node>
+    <node x="486.0" y="5049.0">com.lasa.data.repo.repository.LecturerRepository</node>
+    <node x="2676.0" y="1235.0">com.lasa.data.model.utils.criteria.StudentSearchCriteria</node>
+    <node x="0.0" y="4061.0">com.lasa.data.model.view.BookingRequestViewModel</node>
+    <node x="1456.0" y="4793.0">com.lasa.data.repo.repository.BookingRequestRepository</node>
+    <node x="2645.0" y="3762.0">com.lasa.data.model.utils.dto.SlotTopicDetailSimple.SlotTopicDetailSimpleBuilder</node>
+    <node x="1932.0" y="3806.0">com.lasa.data.model.request.SlotTopicDetailRequestModel.SlotTopicDetailRequestModelBuilder</node>
+    <node x="3906.0" y="2206.0">com.lasa.data.model.utils.criteria.BookingRequestSearchCriteria</node>
+    <node x="2600.0" y="5049.0">com.lasa.data.repo.repository.QuestionRepository</node>
+    <node x="0.0" y="5049.0">com.lasa.data.repo.repository.LecturerTopicDetailRepository</node>
+    <node x="3427.0" y="5385.0">com.lasa.data.validator.model.QuestionUpdateValidator</node>
+    <node x="2828.0" y="5238.0">com.lasa.data.validator.model.SlotCreateValidator</node>
+    <node x="4204.0" y="5049.0">com.lasa.data.validator.model.BookingQuestionCreateValidator</node>
+    <node x="2528.0" y="5532.0">com.lasa.data.repo.repository.TopicRepository</node>
+    <node x="0.0" y="5385.0">com.lasa.data.validator.model.MajorIdsValidator</node>
+    <node x="3993.0" y="3297.0">com.lasa.data.model.entity.key.FavoriteLecturerKey.FavoriteLecturerKeyBuilder</node>
+    <node x="4385.0" y="5385.0">com.lasa.data.model.utils.specification.LecturerSpecification</node>
+    <node x="1095.0" y="2502.0">com.lasa.data.model.utils.criteria.LecturerSearchCriteria.LecturerSearchCriteriaBuilder</node>
+    <node x="3439.0" y="4793.0">com.lasa.data.model.utils.page.StudentPage</node>
+    <node x="1175.0" y="5385.0">com.lasa.data.validator.ValidTopicIds</node>
+    <node x="4984.0" y="4450.0">com.lasa.data.model.view.MajorViewModel</node>
+    <node x="4369.0" y="4793.0">com.lasa.data.model.view.LecturerTopicDetailViewModel</node>
+    <node x="833.0" y="5049.0">com.lasa.data.validator.model.SlotTopicForCreateSlotValidator</node>
+    <node x="4342.0" y="0.0">com.lasa.data.model.entity.BookingRequest</node>
+    <node x="4110.0" y="3576.0">com.lasa.data.validator.ValidSlotTopicForCreateSlot</node>
+    <node x="345.0" y="3023.0">com.lasa.data.model.utils.criteria.TopicSearchCriteria</node>
+    <node x="3625.0" y="4793.0">com.lasa.data.model.utils.page.SlotPage</node>
+    <node x="3570.0" y="5532.0">com.lasa.data.validator.group.DeleteValidator</node>
+    <node x="2973.0" y="3576.0">com.lasa.data.model.utils.dto.SlotTopicDetailSimple</node>
+    <node x="2717.0" y="428.0">com.lasa.data.model.entity.Topic.TopicBuilder</node>
+    <node x="4098.0" y="4061.0">com.lasa.data.model.request.AdminRequestModel</node>
+    <node x="3069.0" y="2206.0">com.lasa.data.model.view.TopicViewModel</node>
+    <node x="4837.0" y="5385.0">com.lasa.data.model.utils.specification.StudentSpecification</node>
+    <node x="1470.0" y="5385.0">com.lasa.data.validator.ValidSlotId</node>
+    <node x="2680.0" y="4450.0">com.lasa.data.validator.ValidBookingQuestionDelete</node>
+    <node x="3103.0" y="5532.0">com.lasa.data.model.utils.projection.SimpleLecturer</node>
+    <node x="1975.0" y="2546.0">com.lasa.data.model.entity.Major.MajorBuilder</node>
+    <node x="842.0" y="4061.0">com.lasa.data.model.request.StudentRequestModel</node>
+    <node x="0.0" y="3716.0">com.lasa.data.model.request.BookingRequestRequestModel</node>
+    <node x="4817.0" y="4793.0">com.lasa.data.model.view.FavoriteLecturerViewModel</node>
+    <node x="1363.0" y="5049.0">com.lasa.data.validator.model.OneOfValidator</node>
+    <node x="2895.0" y="5385.0">com.lasa.data.model.utils.specification.SlotTopicDetailSpecification</node>
+    <node x="1347.0" y="3576.0">com.lasa.data.validator.ValidBookingRequest</node>
+    <node x="821.0" y="1641.0">com.lasa.data.model.view.SlotViewModel.SlotViewModelBuilder</node>
+    <node x="1734.0" y="5049.0">com.lasa.data.model.utils.page.SlotTopicDetailPage</node>
+    <node x="1647.0" y="3023.0">com.lasa.data.model.entity.FavoriteLecturer</node>
+    <node x="1543.0" y="4061.0">com.lasa.data.model.view.StudentViewModel</node>
+    <node x="3492.0" y="2458.0">com.lasa.data.model.utils.criteria.BookingRequestSearchCriteria.BookingRequestSearchCriteriaBuilder</node>
+    <node x="4705.0" y="5049.0">com.lasa.data.validator.model.BookingQuestionUpdateValidator</node>
+    <node x="1123.0" y="4793.0">com.lasa.data.model.request.QuestionRequestModel</node>
+    <node x="1765.0" y="5385.0">com.lasa.data.validator.ValidLecturerIds</node>
+    <node x="2279.0" y="4590.0">com.lasa.data.model.request.BookingQuestionDeleteRequestModel</node>
+    <node x="767.0" y="3576.0">com.lasa.data.validator.ValidBookingRequestRate</node>
+    <node x="3314.0" y="1235.0">com.lasa.data.validator.model.ValidList</node>
+    <node x="2300.0" y="3576.0">com.lasa.data.model.request.SlotTopicDetailRequestModel</node>
+    <node x="4920.0" y="3023.0">com.lasa.data.model.entity.key.SlotTopicDetailKey</node>
+    <node x="2355.0" y="5385.0">com.lasa.data.model.utils.specification.BookingRequestSpecification</node>
+    <node x="860.0" y="5532.0">com.lasa.data.model.utils.specification.TopicSpecification</node>
+    <node x="3820.0" y="3576.0">com.lasa.data.validator.ValidSlotUpdate</node>
+    <node x="2368.0" y="4793.0">com.lasa.data.model.request.FavoriteLecturerRequestModel</node>
+    <node x="4319.0" y="3023.0">com.lasa.data.model.entity.key.FavoriteLecturerKey</node>
+    <node x="497.0" y="5238.0">com.lasa.data.validator.model.TopicIdValidator</node>
+    <node x="1782.0" y="0.0">com.lasa.data.model.entity.Student</node>
+    <node x="3121.0" y="0.0">com.lasa.data.model.entity.Topic</node>
+    <node x="3811.0" y="4793.0">com.lasa.data.model.utils.page.MajorPage</node>
+    <node x="1977.0" y="5532.0">com.lasa.data.Application</node>
+    <node x="735.0" y="3319.0">com.lasa.data.model.entity.LecturerTopicDetail.LecturerTopicDetailBuilder</node>
+    <node x="646.0" y="4590.0">com.lasa.data.model.request.BookingQuestionRequestModel</node>
+    <node x="2060.0" y="5385.0">com.lasa.data.validator.ValidLecturerId</node>
+    <node x="3020.0" y="4793.0">com.lasa.data.model.utils.page.BookingRequestPage</node>
+    <node x="1137.0" y="4450.0">com.lasa.data.validator.ValidBookingQuestionUpdate</node>
+    <node x="4679.0" y="4061.0">com.lasa.data.model.view.AdminViewModel</node>
+    <node x="2831.0" y="4061.0">com.lasa.data.model.view.LecturerViewModel</node>
+    <node x="4492.0" y="5238.0">com.lasa.data.validator.model.SlotIdValidator</node>
+    <node x="1694.0" y="5532.0">com.lasa.data.model.utils.criteria.FavoriteLecturerSearchCriteria</node>
+    <node x="0.0" y="5532.0">com.lasa.data.validator.model.TimeStartAndTimeEndValidator</node>
+    <node x="293.0" y="1235.0">com.lasa.data.model.entity.Admin</node>
+    <node x="0.0" y="4450.0">com.lasa.data.repo.repository.SlotTopicDetailRepository</node>
+    <node x="1344.0" y="3319.0">com.lasa.data.model.entity.FavoriteLecturer.FavoriteLecturerBuilder</node>
+    <node x="2172.0" y="5532.0">com.lasa.data.repo.repository.AdminRepository</node>
+    <node x="4563.0" y="4450.0">com.lasa.data.model.request.TopicRequestModel</node>
+    <node x="0.0" y="516.0">com.lasa.data.model.entity.Lecturer.LecturerBuilder</node>
+    <node x="3997.0" y="4793.0">com.lasa.data.model.utils.page.QuestionPage</node>
+    <node x="1984.0" y="4450.0">com.lasa.data.validator.ValidAcceptOrDenyBooking</node>
+    <node x="4183.0" y="4793.0">com.lasa.data.model.utils.page.TopicPage</node>
+    <node x="4034.0" y="1235.0">com.lasa.data.model.entity.Slot</node>
+    <node x="1442.0" y="2206.0">com.lasa.data.model.utils.criteria.LecturerSearchCriteria</node>
+    <node x="4863.0" y="5238.0">com.lasa.data.validator.model.LecturerIdValidator</node>
+    <node x="486.0" y="4793.0">com.lasa.data.model.utils.projection.SimpleAdmin</node>
+    <node x="1332.0" y="1235.0">com.lasa.data.model.view.SlotViewModel</node>
+    <node x="1427.0" y="4450.0">com.lasa.data.validator.ValidBookingQuestionCreate</node>
+    <node x="365.0" y="5385.0">com.lasa.data.model.utils.criteria.MajorSearchCriteria</node>
+    <node x="2755.0" y="2502.0">com.lasa.data.model.view.TopicViewModel.TopicViewModelBuilder</node>
+    <node x="2975.0" y="4614.0">com.lasa.data.repo.customrepository.FavoriteLecturerCustomRepository</node>
+    <node x="3776.0" y="4450.0">com.lasa.data.repo.customrepository.impl.FavoriteLecturerCustomRepositoryImpl</node>
+    <node x="0.0" y="3253.0">com.lasa.data.model.utils.criteria.TopicSearchCriteria.TopicSearchCriteriaBuilder</node>
+    <node x="0.0" y="4793.0">com.lasa.data.model.view.SlotTopicDetailViewModel</node>
+    <node x="708.0" y="4793.0">com.lasa.data.model.request.MajorRequestModel</node>
+    <node x="3259.0" y="5238.0">com.lasa.data.validator.model.BookingRequestUpdateValidator</node>
+    <node x="994.0" y="5238.0">com.lasa.data.validator.model.BookingRequestRateValidator</node>
+    <node x="3924.0" y="5385.0">com.lasa.data.model.utils.specification.QuestionSpecification</node>
+    <node x="2293.0" y="2206.0">com.lasa.data.model.entity.Major</node>
+    <node x="2461.0" y="3254.0">com.lasa.data.model.utils.criteria.SlotTopicDetailSearchCriteria.SlotTopicDetailSearchCriteriaBuilder</node>
+    <node x="2015.0" y="4793.0">com.lasa.data.model.request.LecturerTopicDetailRequestModel</node>
+    <node x="2308.0" y="1575.0">com.lasa.data.model.utils.criteria.StudentSearchCriteria.StudentSearchCriteriaBuilder</node>
+    <node x="2200.0" y="3023.0">com.lasa.data.model.entity.SlotTopicDetail</node>
+    <node x="1286.0" y="5532.0">com.lasa.data.model.utils.specification.SlotSpecification</node>
+    <node x="3372.0" y="5049.0">com.lasa.data.validator.ValidOneOf</node>
+    <node x="2880.0" y="3023.0">com.lasa.data.model.utils.criteria.SlotTopicDetailSearchCriteria</node>
+    <node x="4690.0" y="3576.0">com.lasa.data.validator.ValidTopicUpdate</node>
+    <node x="3271.0" y="3716.0">com.lasa.data.model.request.SlotRequestModel</node>
+    <node x="2842.0" y="5532.0">com.lasa.data.repo.repository.MajorRepository</node>
+    <node x="3684.0" y="3023.0">com.lasa.data.model.entity.key.LecturerTopicDetailKey</node>
+    <node x="431.0" y="5532.0">com.lasa.data.model.utils.specification.MajorSpecification</node>
+    <node x="4400.0" y="3576.0">com.lasa.data.validator.ValidSlotCreate</node>
+    <node x="3667.0" y="5049.0">com.lasa.data.validator.model.BookingRequestDeleteValidator</node>
+    <node x="3339.0" y="3297.0">com.lasa.data.model.entity.key.LecturerTopicDetailKey.LecturerTopicDetailKeyBuilder</node>
+    <node x="1958.0" y="5049.0">com.lasa.data.repo.repository.SlotRepository</node>
+    <node x="4087.0" y="5238.0">com.lasa.data.validator.model.TopicIdsValidator</node>
+    <node x="4980.0" y="3576.0">com.lasa.data.validator.ValidTimeStartAndTimeEnd</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lasa.data.model.request.SlotRequestModel" target="com.lasa.data.validator.ValidSlotCreate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="4525.0" y="3833.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingRequestRequestModel" target="com.lasa.data.validator.ValidBookingRequestRate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="892.0" y="3866.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.SlotSearchCriteria.SlotSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.SlotSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="703.5" y="2751.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingRequestRequestModel" target="com.lasa.data.validator.ValidBookingTopicId" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="1762.0" y="3866.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.FavoriteLecturer.FavoriteLecturerBuilder" target="com.lasa.data.model.entity.FavoriteLecturer" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="1764.0" y="3414.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.key.LecturerTopicDetailKey.LecturerTopicDetailKeyBuilder" target="com.lasa.data.model.entity.key.LecturerTopicDetailKey" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3816.0" y="3392.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Topic.TopicBuilder" target="com.lasa.data.model.entity.Topic" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3529.5" y="677.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotRequestModel" target="com.lasa.data.validator.ValidSlotUpdate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="3945.0" y="3833.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Slot.SlotBuilder" target="com.lasa.data.model.entity.Slot" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4382.0" y="1824.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.projection.MajorWithSimpleTopic.SimpleTopic" target="com.lasa.data.model.utils.projection.MajorWithSimpleTopic" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4408.0" y="4640.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingQuestionRequestModel" target="com.lasa.data.validator.ValidBookingQuestionUpdate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="1262.0" y="4662.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.view.SlotViewModel.SlotViewModelBuilder" target="com.lasa.data.model.view.SlotViewModel" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="1797.5" y="1868.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Question.QuestionBuilder" target="com.lasa.data.model.entity.Question" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4974.0" y="2619.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Lecturer.LecturerBuilder" target="com.lasa.data.model.entity.Lecturer" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="851.0" y="853.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.SlotTopicDetailSearchCriteria.SlotTopicDetailSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.SlotTopicDetailSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3087.0" y="3371.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotRequestModel" target="com.lasa.data.validator.ValidTimeStartAndTimeEnd" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="5105.0" y="3833.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.key.FavoriteLecturerKey.FavoriteLecturerKeyBuilder" target="com.lasa.data.model.entity.key.FavoriteLecturerKey" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4441.5" y="3392.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingQuestionRequestModel" target="com.lasa.data.validator.ValidBookingQuestionCreate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="1552.0" y="4662.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.view.TopicViewModel.TopicViewModelBuilder" target="com.lasa.data.model.view.TopicViewModel" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3258.0" y="2685.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotRequestModel" target="com.lasa.data.validator.ValidTopicUpdate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="4815.0" y="3833.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Admin.AdminBuilder" target="com.lasa.data.model.entity.Admin" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="534.5" y="1912.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.dto.SlotTopicDetailSimple.SlotTopicDetailSimpleBuilder" target="com.lasa.data.model.utils.dto.SlotTopicDetailSimple" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3099.5" y="3857.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Student.StudentBuilder" target="com.lasa.data.model.entity.Student" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="2227.0" y="853.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.repo.customrepository.impl.FavoriteLecturerCustomRepositoryImpl" target="com.lasa.data.repo.customrepository.FavoriteLecturerCustomRepository" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="3929.5" y="4653.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotTopicDetailRequestModel.SlotTopicDetailRequestModelBuilder" target="com.lasa.data.model.request.SlotTopicDetailRequestModel" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="2450.0" y="3901.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.BookingRequestSearchCriteria.BookingRequestSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.BookingRequestSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4175.0" y="2619.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingRequestRequestModel" target="com.lasa.data.validator.ValidQuestionUpdate" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="1182.0" y="3866.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.TopicSearchCriteria.TopicSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.TopicSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="517.5" y="3392.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.key.SlotTopicDetailKey.SlotTopicDetailKeyBuilder" target="com.lasa.data.model.entity.key.SlotTopicDetailKey" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="5041.5" y="3392.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.SlotTopicDetail.SlotTopicDetailBuilder" target="com.lasa.data.model.entity.SlotTopicDetail" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="2308.0" y="3414.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.repo.repository.FavoriteLecturerRepository" target="com.lasa.data.repo.customrepository.FavoriteLecturerCustomRepository" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="3529.0" y="4653.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingRequestRequestModel" target="com.lasa.data.validator.ValidBookingRequest" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="1472.0" y="3866.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.LecturerTopicDetail.LecturerTopicDetailBuilder" target="com.lasa.data.model.entity.LecturerTopicDetail" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="1178.0" y="3414.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.StudentSearchCriteria.StudentSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.StudentSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="2972.5" y="1824.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.BookingQuestionDeleteRequestModel" target="com.lasa.data.validator.ValidBookingQuestionDelete" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="2805.0" y="4651.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotRequestModel" target="com.lasa.data.validator.ValidSlotTopicForCreateSlot" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="4235.0" y="3833.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.request.SlotBookingRequestModel" target="com.lasa.data.validator.ValidAcceptOrDenyBooking" relationship="ANNOTATION">
+      <point x="0.0" y="-0.0" />
+      <point x="2109.0" y="4662.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.LecturerSearchCriteria.LecturerSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.LecturerSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="1686.0" y="2707.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.utils.criteria.QuestionSearchCriteria.QuestionSearchCriteriaBuilder" target="com.lasa.data.model.utils.criteria.QuestionSearchCriteria" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="3925.5" y="4298.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.BookingRequest.BookingRequestBuilder" target="com.lasa.data.model.entity.BookingRequest" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="4646.5" y="677.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="com.lasa.data.model.entity.Major.MajorBuilder" target="com.lasa.data.model.entity.Major" relationship="INNER_CLASS">
+      <point x="0.0" y="-0.0" />
+      <point x="2501.5" y="2707.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Wide" zoom="0.7060202450719233" showDependencies="false" x="850.902127980682" y="1566.7924086930275" />
+  <SelectedNodes>
+    <node>com.lasa.data.model.entity.Slot</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
