@@ -7,7 +7,7 @@
 ![alt text](https://github.com/SWP302Group2/lasa-database/blob/main/materials/UseCaseDiagram.PNG?raw=true)
 
 #### lasa-data Class Diagram
-[Link](https://github.com/SWP302Group2/lasa-database/blob/main/materials/lasa-data-classdiagram.PNG?raw=true)
+[Link](https://github.com/SWP302Group2/lasa-database/blob/main/materials/lasa-data-classdiagram.png)
 
 
 #### lasa-business Class Diagram
